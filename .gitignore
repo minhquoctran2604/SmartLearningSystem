@@ -1,0 +1,55 @@
+
+# Python Virtual Environments
+venv_smartlearn/
+venv/
+.venv/
+.venv*/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+
+# Environment files
+.env
+.env.local
+.env.production
+config/secrets/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+backup_*.csv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Generated files
+openapi.json
+lessons.csv
+*.backup
+
+# Project scripts
+*.py
+!requirements.txt
+!alembic.ini
+!add_lessons.py
+!test_recommendations_endpoint.py
